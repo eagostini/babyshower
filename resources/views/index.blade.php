@@ -11,30 +11,12 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}" type="text/css" />
         <script src="{{ mix('js/manifest.js') }}"></script>
     </head>
-    <body class="bg-grey-lighter font-sans font-normal text-black leading-normal">
+    <body class="bg-white font-serif font-thin text-grey leading-normal">
         <script src="{{ mix('js/vendor.js') }}"></script>
-        <section class="min-h-screen" id="app"></section>
+
+        <div class="absolute h-full w-full" id="particles"></div>
+        <div class="absolute h-full w-full" id="app"></div>
+
         <script src="{{ mix('js/app.js') }}"></script>
-
-        <section class="flex flex-wrap h-screen items-center justify-center">
-            <div class="text-center w-64">
-                <h1>Oh Baby!</h1>
-                <p>Please, join us at a baby shower in honor of</p>
-                <h2>Pamella Agostini</h2>
-
-                <p>Sunday, 8th of April at 4pm <br />
-                    <address>
-                        27 Edgewood Way, Henderson
-                    </address>
-                Please, reply by 18th of March</p>
-                <p>
-                    <a href="tel:+64 27 775 5745">+64 27 775 5745</a>
-                    |
-                    <a href="mailto:pamy.agostini@gmail.com">pamy.agostini@gmail.com</a>
-                </p>
-
-                <footer>Gifts registered at <a href="#">Amazon.com</a></footer>
-            </div>
-        </section>
     </body>
 </html>

@@ -5,6 +5,9 @@ mix.autoload({
    react: ['React']
 });
 
+mix.copy('resources/assets/fonts/*', 'public/fonts');
+mix.copy('resources/assets/js/particles.json', 'public/js/particles.json');
+
 mix.extract([
     'react',
     'react-dom'
